@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Örnekleri</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Internal Css-->
+    <style>
+        h1{
+            /* color: chocolate; */
+            font-size: 25px;
+            font-weight: bold;
+        }
+        #header{
+            color: aquamarine;
+            font-size: 15px;
+        }
+        .active{
+            background-color: green;
+        }
+        a{
+            color:burlywood;
+        }
+        /* mouse over link */
+        a:hover {
+        color: hotpink;
+        }
+
+        /* selected link */
+        a:active {
+        color: blue;
+        }
+    </style>
+</head>
+<body>
+    <p style="color: red;">Kırmızı</p>
+    <p style="font-size: 30px; color: blue;">Font Size 30 px </p>
+    <a href="">Link2</a>
+    <a href="#" style="color:#000000; text-decoration: none;">Link</a>
+    <span>text</span>
+    <!--Css yazım Türleri
+    1-Inline css tagı style attribute ile yapılır
+    2-Internal Css => style tagı yazılır.
+    -->
+    <div class="sticky">Bu div sticky pozisyondadır.</div>
+    <h1>H1 başlık</h1>
+    <h1 id="header">Lorem ipsum dolor sit amet.</h1>
+    <ul>
+        <li class="active d-inline">Lorem ipsum dolor sit amet.</li>
+        <li class="d-inline">Lorem ipsum dolor sit amet.</li>
+        <li class="active d-inline">Lorem ipsum dolor sit amet.</li>
+    </ul>
+
+    <a href="default.asp" target="_blank">This is a link</a>
+
+    <div id="container">
+        <div class="left">Sol İçerik</div>
+        <div class="right">Sağ içerik </div>
+    </div>
+    <br><br><br>
+    <div class="relative uppercase">Bu div relative pozisyondadır.
+        <div class="absolute lowercase"> Bu div absolute pozisyondadır.</div>
+    </div>
+    <footer class="capitalize">Bu footer fixed pozisyondadır.</footer>
+    <br>
+</body>
+</html>

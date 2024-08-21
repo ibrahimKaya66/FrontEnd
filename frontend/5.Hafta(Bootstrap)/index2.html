@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Özellikleri</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div class="d-inline bg-primary">Lorem ipsum dolor sit </div>
+    <div class="d-inline-block w-75 bg-primary">Lorem ipsum dolor sit </div>
+    <div></div>
+    <span class="d-block bg-success my-1">Lorem ipsum dolor sit amet consectetur.</span>
+    <span class="d-none bg-success my-1">Lorem ipsum dolor sit amet consectetur.</span>
+
+    <div class="d-flex" style="height: 40px;">
+        <div class="w-25 bg-danger h-100"></div>
+        <div class="w-75 bg-warning h-100"></div>
+    </div>
+    <table class="my-2 table table-primary table-hover table-striped w-50 mx-auto">
+        <thead>
+            <tr>
+                <th>Başlık1</th>
+                <th>Başlık2</th>
+                <th>Başlık3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Valu1</td>
+                <td>Valu2</td>
+                <td>Valu3</td>
+            </tr>
+            <tr>
+                <td>Valu1</td>
+                <td>Valu2</td>
+                <td>Valu3</td>
+            </tr>
+            <tr>
+                <td>Valu1</td>
+                <td>Valu2</td>
+                <td>Valu3</td>
+            </tr>
+            <tr>
+                <td>Valu1</td>
+                <td>Valu2</td>
+                <td>Valu3</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ul class="list-unstyled list-inline">
+        <li class="list-inline-item">Liste 1</li>
+        <li class="list-inline-item">Liste 2</li>
+    </ul>
+    <ul class="list-group w-50 mx-auto">
+        <li class="list-group-item">Lorem, ipsum dolor.</li>
+        <li class="list-group-item">Magnam, optio velit.</li>
+        <li class="list-group-item active">Repudiandae, quidem earum!</li>
+        <li class="list-group-item">Maxime, fugit vel.</li>
+        <li class="list-group-item disabled">Ea, dignissimos magni.</li>
+    </ul>
+
+    <div class="my-4 list-group w-50 mx-auto">
+        <a class="list-group-item list-group-item-action">Lorem, ipsum dolor.</a>
+        <a class="list-group-item list-group-item-action">Magnam, optio velit.</a>
+        <a class="list-group-item active list-group-item-action">Repudiandae, quidem earum!</a>
+        <li class="list-group-item">Maxime, fugit vel.</li>
+        <li class="list-group-item disabled">Ea, dignissimos magni.</li>
+    </div>
+    <ul class="list-group list-group-flush list-group-numbered list-group-horizontal w-50 mx-auto">
+        <li class="list-group-item list-group-item-primary">Lorem, ipsum dolor.</li>
+        <li class="list-group-item list-group-item-secondary">Magnam, optio velit.</li>
+        <li class="list-group-item active">Repudiandae, quidem earum!</li>
+        <li class="list-group-item">Maxime, fugit vel.</li>
+        <li class="list-group-item disabled">Ea, dignissimos magni.</li>
+    </ul>
+
+    <div class="list-group list-group-numbered my-4 w-75 mx-auto">
+        <a href="" class="list-group-item list-group-item-action active">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">List-Group İtem Heading</h5>
+                <small class="p-2 bg-info rounded-pill">3 days ago</small>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, at!</p>
+            <small>Lorem ipsum dolor sit.</small>
+            
+        </a>
+        <a href="" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">List-Group İtem Heading</h5>
+                <small class="p-2 bg-info rounded-pill">3 days ago</small>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, at!</p>
+            <small>Lorem ipsum dolor sit.</small>
+        </a>
+        <a href="" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">List-Group İtem Heading</h5>
+                <small class="p-2 bg-info rounded-pill">3 days ago</small>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, at!</p>
+            <small>Lorem ipsum dolor sit.</small>
+        </a>
+    </div>
+
+    <div class="w-50 my-4 mx-auto">
+        <div class="alert alert-warning alert-dismissible" role="alert">
+            <strong>Lorem ipsum dolor sit amet.</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        <div class="alert alert-info alert-dismissible" role="alert">
+            <strong>Lorem ipsum dolor sit amet.</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        <div class="alert alert-danger">Lorem ipsum dolor sit amet.</div>
+    </div>
+    <div class="mx-auto w-50">
+        <img class="img-fluid img-thumbnail rounded-3" width="500" height="400" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdQLwDqDwd2JfzifvfBTFT8I7iKFFevcedYg&amp;s" alt="person">
+
+    </div>
+
+    <div class="w-50 mx-auto border">
+        <strong class="text-primary float-start">Lorem ipsum dolor sit amet.</strong>
+        <strong class="text-secondary float-end">Lorem ipsum dolor sit amet.</strong>
+    </div>
+    <div class="clearfix"></div>
+
+   <form action="" class="my-5 mx-auto w-75">
+    <label for="" class="form-label">Ad : </label>
+    <input type="text" name="" id="" class="form-control mb-2">
+    <label for="" class="form-label">Memleketi</label>
+    <select name="" id="" class="form-select form-select-lg">
+        <option class="" value="0">İstanbul</option>
+        <option value="1">Ankara</option>
+        <option selected value="2">İzmir</option>
+        <option value="3">Yozgat</option>
+    </select>
+    <select name="" id="" class="form-select">
+        <option class="" value="0">İstanbul</option>
+        <option value="1">Ankara</option>
+        <option selected value="2">İzmir</option>
+        <option value="3">Yozgat</option>
+    </select>
+   
+    <select name="" id="" class="form-select form-select-sm">
+        <option class="" value="0">İstanbul</option>
+        <option value="1">Ankara</option>
+        <option selected value="2">İzmir</option>
+        <option value="3">Yozgat</option>
+    </select>
+    <div class="form-check form-check-reverse">
+        <input type="checkbox" name="" id="" class="form-check-input">
+        <label for="" class="form-check-label">Checkbox1 </label>
+        
+    </div>
+    <div class="form-check form-switch">
+        <input type="checkbox" name="" id="" class="form-check-input" role="switch">
+        <label for="" class="form-check-label">Switch  </label>
+        
+    </div>
+    <div class="form-check form-check-inline">
+        <input type="radio" name="form-radio" id="" class="form-check-input">
+        <label for="" class="form-check-label">Radio1</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input type="radio" name="form-radio" id="" class="form-check-input">
+        <label for="" class="form-check-label">Radio2</label>
+    </div>
+    <div>
+        <label for="" class="form-label">Range</label>
+        <input type="range" name="" id="" class="form-range" min="0" max="20" step="10">
+    </div>
+    <button class="btn btn-primary">Kaydet</button>
+   </form>
+   <form class="needs-validation" novalidate>
+    <div class="input-group input-group-lg w-75 mx-auto my-5">
+        <span class="input-group-text">@</span>
+        <input type="text" name="" id="" class="form-control" placeholder="Username">
+       </div>
+       <div class="input-group w-75 mx-auto my-5">
+        <span class="input-group-text">@</span>
+        <input type="text" name="" id="" class="form-control" placeholder="Username">
+       </div>
+       <div class="input-group input-group-sm w-75 mx-auto my-5">
+        <span class="input-group-text">@</span>
+        <input type="text" name="" id="" class="form-control" placeholder="Username">
+       </div>
+       <div class="form-floating mb-5">
+        <input type="text" name="" id="" class="form-control">
+        <label for="">Ad</label>
+       </div>
+       <div class="form-floating mb-5">
+        <textarea name="" id="textarealabel" class="form-control"  required></textarea>
+        <label for="textarealabel">Soyad</label>
+        <div class="valid-feedback">
+            Doğruysa
+        </div>
+        <div class="invalid-feedback">
+            Yanlışsa
+        </div>
+        <input type="submit" value="Submit form" class="btn btn-primary btn-sm">
+       </div>
+   </form>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

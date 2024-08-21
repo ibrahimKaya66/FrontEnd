@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Example</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <!--modal-->
+   <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button>
+  
+  <!-- Modal -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+  <!--Tooltip-->
+  <div class="my-2">
+    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top">Tooltip on top</button>
+    <button  class="btn btn-secondary  ms-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="tooltip on top">right Tooltip</button>
+    <button  class="btn btn-secondary  ms-3" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="tooltip on top">bottom Tooltip</button>
+    <button  class="btn btn-secondary  ms-3" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="tooltip on top">left Tooltip</button>
+  </div>
+ 
+
+  <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+
+  <div class="bd-example">
+    <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3 rounded-2">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyHeading1">First</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyHeading2">Second</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+            <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div class="scrollspy-example bg-body-tertiary p-3 rounded-2" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
+      <h4 id="scrollspyHeading1">First heading</h4>
+      <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatem magni praesentium, odio consectetur veniam unde quo, fuga, numquam deserunt nemo error tenetur dolor expedita? Nihil earum laudantium autem explicabo? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, recusandae nisi ipsum aperiam rerum sed inventore commodi maxime consequatur ratione molestias impedit mollitia laboriosam, magnam nesciunt quibusdam. Ipsam, sunt odio!</p>
+      <h4 id="scrollspyHeading2">Second heading</h4>
+      <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatem magni praesentium, odio consectetur veniam unde quo, fuga, numquam deserunt nemo error tenetur dolor expedita? Nihil earum laudantium autem explicabo? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, recusandae nisi ipsum aperiam rerum sed inventore commodi maxime consequatur ratione molestias impedit mollitia laboriosam, magnam nesciunt quibusdam. Ipsam, sunt odio!</p>
+      <h4 id="scrollspyHeading3">Third heading</h4>
+      <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatem magni praesentium, odio consectetur veniam unde quo, fuga, numquam deserunt nemo error tenetur dolor expedita? Nihil earum laudantium autem explicabo? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, recusandae nisi ipsum aperiam rerum sed inventore commodi maxime consequatur ratione molestias impedit mollitia laboriosam, magnam nesciunt quibusdam. Ipsam, sunt odio!</p>
+      <h4 id="scrollspyHeading4">Fourth heading</h4>
+      <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatem magni praesentium, odio consectetur veniam unde quo, fuga, numquam deserunt nemo error tenetur dolor expedita? Nihil earum laudantium autem explicabo? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, recusandae nisi ipsum aperiam rerum sed inventore commodi maxime consequatur ratione molestias impedit mollitia laboriosam, magnam nesciunt quibusdam. Ipsam, sunt odio!</p>
+      <h4 id="scrollspyHeading5">Fifth heading</h4>
+      <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatem magni praesentium, odio consectetur veniam unde quo, fuga, numquam deserunt nemo error tenetur dolor expedita? Nihil earum laudantium autem explicabo? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, recusandae nisi ipsum aperiam rerum sed inventore commodi maxime consequatur ratione molestias impedit mollitia laboriosam, magnam nesciunt quibusdam. Ipsam, sunt odio!</p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <!-- <script>
+    document.addEventListener('DOMContentLoaded', function () {
+            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+            var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl)
+            })
+        
+            var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+            var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                return new bootstrap.Popover(popoverTriggerEl)
+            })
+        });
+    </script> -->
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+    </script>
+
+</body>
+</html>
